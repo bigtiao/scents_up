@@ -1,0 +1,44 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">香驰控股</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">香驰控股</string>
+    
+    <string name="main_title">香驰控股</string>
+    
+    <string name="main_home">首页</string>
+    <string name="main_news">新闻</string>
+    <string name="main_my_info">视频</string>
+    <string name="menu_search">产品</string>
+    <string name="more">关于</string>
+	<string name="jianjiecontent">&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;公司始建于1989年，现有员工3000余人，总占地面积360万平方米，总资产80亿元，下设香驰粮油、龙口粮油、香驰生物、御馨蛋白、御馨生物、天下五谷营销、健源生物、香驰热动、洁源环保、香驰物流等10多个子公司，年加工大豆250万吨、玉米50万吨，是农业产业化国家重点龙头企业，全国循环经济试点单位、国家环境友好企业、中国食品工业食用油行业10强、中国粮油企业100强、全国粮油行业AAA级信用等级企业、全国诚信粮油企业、全国模范职工之家、省劳动关系和谐企业。\n
+        &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;坚持“诚信开拓市场，质量创造品牌”的经营理念，以大豆、玉米加工为主业，围绕产业链探索相关产业经营的纵向延伸和横向拓展，配套发展基础产业及新兴产业，五年计划投资100亿元，引进具有高科技、高附加值、有市场发展潜力的高端项目，形成主业层次分明、产业梯次发展、竞争优势持续保持的战略业务链体系。到2016年，实现销售收入600亿元，利税50亿元,有两家子公司上市，实现企业的快速裂变。</string>
+	<string name="more_text">&#160;地址：山东省博兴县博城五路172号  \n 邮编：256500 \n 邮箱：xiangchi@xiangchi.com \n 传真：0543&#8211;2617777</string>
+	<string name="more_xinxi">&#160;软件版本：1.0.2 \n 技术支持：香驰控股信息技术部</string>
+	<string name="more_copyright">Copyright 2012~2013 cc,all rights reserved</string>
+	<string name="more_phone">&#160;电话：0543-2510047</string>
+	
+	<string name="newsname">新闻信息</string>
+	<string name="loadmore_txt">正在加载，请稍候&#8230;</string>
+	<string name="loadmore_btn">加载更多</string>
+	
+	<string name="no_news">暂时没有更多新闻</string>
+    <string name="no_more_news">该栏目下没有更多新闻</string>
+    <string name="load_news_failure">获取新闻失败</string>
+    <string name="news">新闻</string>
+    
+    <string name="no_next_news">没有下篇新闻了</string>
+    <string name="no_pre_news">没有上篇新闻了</string>
+    <string name="more_updatecheck">检查更新</string>
+    
+    <string name="menu_item_update">更新</string>
+    <string name="soft_update_no">已经是最新版本</string>
+    <string name="soft_update_title">软件更新</string>
+    <string name="soft_update_info">检测到新版本，立即更新吗</string>
+    <string name="soft_update_updatebtn">更新</string>
+    <string name="soft_update_later">稍后更新</string>
+    <string name="soft_updating">正在更新</string>
+    <string name="soft_update_cancel">取消</string>
+	
+</resources>

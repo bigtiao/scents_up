@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+   <RelativeLayout
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="45dp"
+       android:background="@drawable/newsbar_background_2" >
+
+       <TextView
+           android:id="@+id/titlebar_title"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="15dp"
+           android:layout_marginTop="15dp"
+           android:text="@string/newsname"
+           android:textColor="#ffffffff" />
+       <Button 
+           android:id="@+id/titlebar_refresh"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/city_manager_update"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="15dp"
+           android:layout_marginTop="3dp"
+           />
+       <ProgressBar 
+           android:id="@+id/loadnews_progress"
+           android:layout_width="25dp"
+           android:layout_height="25dp"
+           android:clickable="false"
+           android:visibility="gone"
+           android:layout_alignParentRight="true"
+           android:layout_marginRight="26dp"
+           android:layout_marginTop="15dp"
+           
+           />
+
+       
+      
+	</RelativeLayout>
+	<ListView 
+	    android:id="@+id/news_listview"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="-10dp"
+	    android:listSelector="@drawable/newslist_item_selector"
+	    android:cacheColorHint="#00000000"
+   	    android:divider="@drawable/list_separator_line"
+	    ></ListView>
+   
+</LinearLayout>
