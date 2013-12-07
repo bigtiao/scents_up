@@ -18,7 +18,7 @@ public class AppStart extends Activity {
 		 final View view = View.inflate(this, R.layout.start, null);
 			setContentView(view);
 	        
-			//渐变展示启动屏
+			//渐变展示启动屏，这里是我的github
 			AlphaAnimation aa = new AlphaAnimation(0.3f,1.0f);
 			aa.setDuration(3000);
 			view.startAnimation(aa);
